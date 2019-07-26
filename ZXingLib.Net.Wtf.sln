@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetFunctionAppDemo", "Nuget\NugetFunctionAppDemo\NugetFunctionAppDemo.csproj", "{7EC625D3-66B1-417B-A578-F679F8B3F713}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReaderNuget", "Nuget\ReaderNuget\ReaderNuget.csproj", "{DA53D289-FBD6-4B0C-9E44-918335BA6E85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetConsoleAppDemo", "Nuget\NugetConsoleAppDemo\NugetConsoleAppDemo.csproj", "{B10C1CB5-7CB2-4DF4-BA2C-C67CA830ACA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{DCA64EA4-9597-46A1-AED1-2CD8BEA67B9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{4255BA48-35A4-4B74-A566-446FEBF0D358}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManualBuild - Debug", "ManualBuild - Debug", "{FA932398-D09A-4933-A0E9-0133338181CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManualBuild - Release", "ManualBuild - Release", "{72C456D6-454B-41F9-80D0-E01029208E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualBuildReleaseConsoleAppDemo", "ManualBuild-Release\ManualBuildConsoleAppDemo\ManualBuildReleaseConsoleAppDemo.csproj", "{DE36C650-F3E7-42EF-A759-43EB2AB0A124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderManualBuildRelease", "ManualBuild-Release\ReaderManualBuildRelease\ReaderManualBuildRelease.csproj", "{8145BD1B-E566-4F51-A485-3AE8A9347508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{D828DA39-F87A-4211-ADDF-0D5EFC5E9025}"
+	ProjectSection(SolutionItems) = preProject
+		ManualBuild-Release\Libs\zxing.dll = ManualBuild-Release\Libs\zxing.dll
+		ManualBuild-Release\Libs\ZXing.ImageSharp.dll = ManualBuild-Release\Libs\ZXing.ImageSharp.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{0974B13F-4D72-47F0-AE72-D84970D08FDE}"
+	ProjectSection(SolutionItems) = preProject
+		ManualBuild-Debug\Libs\zxing.dll = ManualBuild-Debug\Libs\zxing.dll
+		ManualBuild-Debug\Libs\ZXing.ImageSharp.dll = ManualBuild-Debug\Libs\ZXing.ImageSharp.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderManualBuildDebug", "ManualBuild-Debug\ReaderManualBuildDebug\ReaderManualBuildDebug.csproj", "{5E5F4D20-BADD-4908-9030-BF9814A621A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualBuildDebugConsoleAppDemo", "ManualBuild-Debug\ManualBuildDebugConsoleAppDemo\ManualBuildDebugConsoleAppDemo.csproj", "{4A23DFC9-B435-4833-98CD-C73EBF7FD125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualBuildReleaseFunctionAppDemo", "ManualBuild-Release\ManualBuildReleaseFunctionAppDemo\ManualBuildReleaseFunctionAppDemo.csproj", "{2A5F9C84-2069-4F08-9B76-635AC7160DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualBuildDebugFunctionAppDemo", "ManualBuild-Debug\ManualBuildDebugFunctionAppDemo\ManualBuildDebugFunctionAppDemo.csproj", "{EA88E558-ACD4-42CA-A6F4-8EAAE7EEA67B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC625D3-66B1-417B-A578-F679F8B3F713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC625D3-66B1-417B-A578-F679F8B3F713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC625D3-66B1-417B-A578-F679F8B3F713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC625D3-66B1-417B-A578-F679F8B3F713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA53D289-FBD6-4B0C-9E44-918335BA6E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA53D289-FBD6-4B0C-9E44-918335BA6E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA53D289-FBD6-4B0C-9E44-918335BA6E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA53D289-FBD6-4B0C-9E44-918335BA6E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10C1CB5-7CB2-4DF4-BA2C-C67CA830ACA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10C1CB5-7CB2-4DF4-BA2C-C67CA830ACA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10C1CB5-7CB2-4DF4-BA2C-C67CA830ACA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10C1CB5-7CB2-4DF4-BA2C-C67CA830ACA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4255BA48-35A4-4B74-A566-446FEBF0D358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4255BA48-35A4-4B74-A566-446FEBF0D358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4255BA48-35A4-4B74-A566-446FEBF0D358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4255BA48-35A4-4B74-A566-446FEBF0D358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE36C650-F3E7-42EF-A759-43EB2AB0A124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE36C650-F3E7-42EF-A759-43EB2AB0A124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE36C650-F3E7-42EF-A759-43EB2AB0A124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE36C650-F3E7-42EF-A759-43EB2AB0A124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8145BD1B-E566-4F51-A485-3AE8A9347508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8145BD1B-E566-4F51-A485-3AE8A9347508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8145BD1B-E566-4F51-A485-3AE8A9347508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8145BD1B-E566-4F51-A485-3AE8A9347508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5F4D20-BADD-4908-9030-BF9814A621A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5F4D20-BADD-4908-9030-BF9814A621A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5F4D20-BADD-4908-9030-BF9814A621A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5F4D20-BADD-4908-9030-BF9814A621A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A23DFC9-B435-4833-98CD-C73EBF7FD125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A23DFC9-B435-4833-98CD-C73EBF7FD125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A23DFC9-B435-4833-98CD-C73EBF7FD125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A23DFC9-B435-4833-98CD-C73EBF7FD125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5F9C84-2069-4F08-9B76-635AC7160DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5F9C84-2069-4F08-9B76-635AC7160DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5F9C84-2069-4F08-9B76-635AC7160DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5F9C84-2069-4F08-9B76-635AC7160DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA88E558-ACD4-42CA-A6F4-8EAAE7EEA67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA88E558-ACD4-42CA-A6F4-8EAAE7EEA67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA88E558-ACD4-42CA-A6F4-8EAAE7EEA67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA88E558-ACD4-42CA-A6F4-8EAAE7EEA67B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EC625D3-66B1-417B-A578-F679F8B3F713} = {DCA64EA4-9597-46A1-AED1-2CD8BEA67B9F}
+		{DA53D289-FBD6-4B0C-9E44-918335BA6E85} = {DCA64EA4-9597-46A1-AED1-2CD8BEA67B9F}
+		{B10C1CB5-7CB2-4DF4-BA2C-C67CA830ACA7} = {DCA64EA4-9597-46A1-AED1-2CD8BEA67B9F}
+		{DE36C650-F3E7-42EF-A759-43EB2AB0A124} = {72C456D6-454B-41F9-80D0-E01029208E2D}
+		{8145BD1B-E566-4F51-A485-3AE8A9347508} = {72C456D6-454B-41F9-80D0-E01029208E2D}
+		{D828DA39-F87A-4211-ADDF-0D5EFC5E9025} = {72C456D6-454B-41F9-80D0-E01029208E2D}
+		{0974B13F-4D72-47F0-AE72-D84970D08FDE} = {FA932398-D09A-4933-A0E9-0133338181CC}
+		{5E5F4D20-BADD-4908-9030-BF9814A621A2} = {FA932398-D09A-4933-A0E9-0133338181CC}
+		{4A23DFC9-B435-4833-98CD-C73EBF7FD125} = {FA932398-D09A-4933-A0E9-0133338181CC}
+		{2A5F9C84-2069-4F08-9B76-635AC7160DAE} = {72C456D6-454B-41F9-80D0-E01029208E2D}
+		{EA88E558-ACD4-42CA-A6F4-8EAAE7EEA67B} = {FA932398-D09A-4933-A0E9-0133338181CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4101873D-AB77-4AA6-A1DC-DC0C6AC9DCCD}
+	EndGlobalSection
+EndGlobal
